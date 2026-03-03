@@ -1,7 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 
-const SOURCE_URL = 'https://raw.githubusercontent.com/geekyhimanshu/Khu/refs/heads/main/Sony%20Channel.m3u';
+const SOURCE_URL = 'https://pocket-tv-tamil-5afe35.gitlab.io/';
 const OUTPUT_FILE = 'SONY.m3u';
 
 async function fetchAndSave() {
